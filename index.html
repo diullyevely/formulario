@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form action="">
+        <ul>
+          <li>
+            <p>Nome Completo:</p>
+            <input type="text" placeholder="Nome Completo" required />
+          </li>
+          <li>
+            <p>RG:</p>
+            <input type="number" placeholder="00.000.00-0" required />
+          </li>
+          <li>
+            <p>Pai:</p>
+            <input type="text" placeholder="Nome do Pai" required />
+          </li>
+          <li>
+            <p>Escolaridade:</p>
+            <select>
+              <option value="">Selecione</option>
+            </select>
+          </li>
+          <li>
+            <p>Telefone:</p>
+            <input type="tel" placeholder="0000-0000" />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>Data de Nascimento:</p>
+            <input type="date" placeholder="__/__/____" required />
+          </li>
+          <li>
+            <p>CPF:</p>
+            <input type="number" placeholder="000.000.000-00" required />
+          </li>
+          <li>
+            <p>Mãe:</p>
+            <input type="text" placeholder="Nome da Mãe" required />
+          </li>
+          <li>
+            <p>Profissão:</p>
+            <input type="text" placeholder="Profissão" required />
+          </li>
+          <li>
+            <p>Celular:</p>
+            <input type="tel" placeholder="(00) 00000-0000" required />
+          </li>
+        </ul>
+        <div class="input-button">
+          <input class="button" type="submit" value="Cadastrar" />
+          <input class="button" type="reset" value="Limpar campos" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
