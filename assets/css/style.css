@@ -55,6 +55,9 @@ li input {
   background: #ffe4e1;
   padding-left: 10px;
 }
+::placeholder{
+  color: #a0a0a0;
+}
 .input-button {
   display: flex;
   gap: 10px;
